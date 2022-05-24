@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-hightchart'),
+      dir: require('path').join(__dirname, './coverage/crypto-price-tracker'),
       subdir: '.',
       reporters: [
         { type: 'html' },
